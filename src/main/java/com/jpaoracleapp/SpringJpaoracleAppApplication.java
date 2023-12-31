@@ -19,8 +19,11 @@ public class SpringJpaoracleAppApplication {
 	// employeeService.delete();
 	  //employeeService.updateEmployeeData();
 	  
-	  employeeService.testFindByAddress();
+	 // employeeService.testFindByAddress();
 	  //employeeService.testSalaryGreater();
+	  
+	 // employeeService.updateBySalary();
+	  employeeService.deleteByUserId();
 	}
 
 }

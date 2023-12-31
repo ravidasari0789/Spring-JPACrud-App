@@ -97,4 +97,12 @@ public class EmployeeService {
 	        	System.out.println(entity);
 	        });
 	        }
+	        public void updateBySalary() {
+	        	employeerepo.updateBySalary(45000, 52);
+	        	
+	        }
+	        public void deleteByUserId() {
+	        	
+	        	employeerepo.deleteByUserId(53);
+	        }
 }
